@@ -29,4 +29,4 @@ The following Terraform variables must be set in order to ensure functionality o
 
 1. terraform init
 2. terraform apply -auto-approve
-3. terraform willc output the load-balancer IP to onnect to the UI <IP>:8080
+3. terraform will output the load-balancer IP to onnect to the UI <IP>:8080

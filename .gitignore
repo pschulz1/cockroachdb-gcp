@@ -36,3 +36,4 @@ terraform.rc
 .DS_Store
 modules/.DS_Store
 modules/instances/.DS_Store
+.terraform.lock.hcl
