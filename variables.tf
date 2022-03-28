@@ -12,7 +12,7 @@ variable "region" {
 }
 variable "zone" {
   type = list(string)
-  default = ["us-east4a", "us-east4b", "us-east4c"]
+  default = ["us-east4-a", "us-east4-b", "us-east4-c"]
 }
 variable "crdb_version" {
     default = "v21.2.0"

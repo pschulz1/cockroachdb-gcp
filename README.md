@@ -13,7 +13,7 @@ The module is pretty much self-contained and deploys CockroachDB in a non.produc
 openssl genrsa -out key.pem 2048<br/>
 openssl rsa -in key.pem -outform PEM -pubout -out public.pem
 
-## Tunable Variables
+## Tunable variables
 
 The following Terraform variables must be set in order to ensure functionality of the module
 
@@ -22,11 +22,11 @@ The following Terraform variables must be set in order to ensure functionality o
 * gce_ssh_user - SSH user to be configured inside the instances
 * gce_ssh_pub_key_file - Path to SSH cert file (added to the GCP instances OS)
 * gce_ssh_priv_key_file - Path to SSH key file (used to connect to the instance)
-* org - CockroachDB og in the license
+* org - CockroachDB org in the license
 * license - CockroachDB Enterprise license
 
 ## Usage
 
 1. terraform init
 2. terraform apply -auto-approve
-3. terraform will output the load-balancer IP to connect to the UI <IP>:8080
+3. terraform willc output the load-balancer IP to onnect to the UI <IP>:8080
